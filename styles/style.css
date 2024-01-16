@@ -75,3 +75,74 @@ nav {
     color: #FF5400;
     font-weight: 700;
 }
+
+.banner {
+    width: 80%;
+    height: auto;
+    margin: 0 auto 100px auto;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../images/Group\ 13\ \(1\)\ \(1\).png');
+    height: 500px;
+    border-radius: 10px;
+}
+.banner-text {
+    height: auto;
+    padding-top: 150px;
+}
+.banner-text h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 800;
+}
+.banner-text p {
+    color: #FFF;
+    text-align: center;
+    margin: 24px auto 30px auto;
+    max-width: 42rem;
+    font-size: 16px;
+    font-weight: 400;
+}
+.banner-input {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    margin: 0 auto;
+    border-radius: 8px;
+    gap: 5px;
+    background: rgba(255, 255, 255, 0.30);
+    max-width: 800px;
+    
+}
+.banner-input input {
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    width: 174px;
+    height: 52px;
+    background: #FFF;
+    border: none;
+    border-radius: 8px;
+}
+.banner-input select {
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    width: 174px;
+    height: 52px;
+    background: #FFF;
+    border-radius: 8px;
+    border: none;
+}
+.banner-input button {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+}
+
+
