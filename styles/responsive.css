@@ -69,17 +69,18 @@
     }
     .maldives {
         grid-area: maldives;
-        width: 480px;
+        width: 100%;
         height: 300px;
+        object-fit: cover;
     }
     .indonesia {
         grid-area: indonesia;
-        width: 480px;
+        width: 100%;
         height: 300px;
     }
     .srilanka {
         grid-area: srilanka;
-        width: 480px;
+        width: 100%;
         height: 300px;
     }
     .north-america {
@@ -117,6 +118,18 @@
     .best-price {
         width: 106%;
         margin-left: -50px;
+    }
+    .client-feedback-card {
+        flex-direction: column;
+    }
+    .tom {
+        width: 100%;
+    }
+    .dick {
+        width: 100%;
+    }
+    .harry {
+        width: 100%;
     }
     .natural-beauty {
         flex-direction: column;

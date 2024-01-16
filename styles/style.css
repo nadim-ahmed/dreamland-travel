@@ -224,14 +224,14 @@ nav {
 .maldives {
     grid-area: maldives;
     background: url('../Images/Rectangle\ 5.png');
-    width: 573px;
+    width: 100%;
     height: 300px;
 }
 
 .indonesia {
     grid-area: indonesia;
     background: url('../Images/Rectangle\ 8.png');
-    width: 573px;
+    width: 100%;
     height: 300px;
 }
 .srilanka {
@@ -333,7 +333,7 @@ nav {
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
     width: 33%;
-    height: 150px;
+    height: auto;
     padding: 25px;
     text-align: center;
 }
@@ -342,7 +342,7 @@ nav {
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
     width: 33%;
-    height: 200px;
+    height: auto;
     padding: 25px;
     text-align: center;
     align-items: center;
@@ -352,7 +352,7 @@ nav {
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
     width: 33%;
-    height: 150px;
+    height: auto;
     padding: 25px;
     text-align: center;
 }
