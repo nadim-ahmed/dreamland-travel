@@ -1,0 +1,149 @@
+@media only screen and (max-width: 580px) {
+    .common-heading-styling {
+        font-size: 30px;
+    }
+    .common-subheading-styling {
+        font-size: 20px;
+    }
+    nav {
+        flex-direction: column;
+    }
+    .nav-title {
+        width: 100%;
+        text-align: center;
+    }
+    .nav-menu {
+        visibility: hidden;
+    }
+    .banner-text {
+        padding-top: 30px;
+    }
+    .banner-text h1 {
+        font-size: 2rem;
+    }
+    .banner-input {
+        flex-direction: column;
+        width: 100%;
+        margin-left: -15px;
+        margin-top: -30px;
+    }
+    .banner-input input {
+        margin: auto;
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    .banner-input select {
+        margin: auto;
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    .banner-input button {
+        margin: auto;
+        width: 80%;
+    }
+    .popular-tours {
+        width: 100%;
+        flex-direction: column;
+        margin-top: -80px;
+    }
+    .popular-tours-text {
+        padding: 20px;
+        width: 95%;
+    }
+    .popular-tours-img {
+        max-width: 90%;
+        margin: auto;
+    }
+    .destination-container {
+        margin-left: -30px;
+        display: grid;
+        grid-template-areas: 
+        'maldives'
+        'indonesia'
+        'srilanka'
+        'north-america'
+        'kashmir'
+        'bangladesh' 
+        'bandarban';
+        gap: 24px;    
+    }
+    .maldives {
+        grid-area: maldives;
+        width: 480px;
+        height: 300px;
+    }
+    .indonesia {
+        grid-area: indonesia;
+        width: 480px;
+        height: 300px;
+    }
+    .srilanka {
+        grid-area: srilanka;
+        width: 480px;
+        height: 300px;
+    }
+    .north-america {
+        grid-area: north-america;
+        width: 480px;
+        height: 300px;
+    }
+    .kashmir {
+        grid-area: kashmir;
+        width: 480px;
+        height: 300px;
+        object-fit: cover;
+    }
+    .bangladesh {
+        grid-area: bangladesh;
+        width: 480px;
+        height: 300px;
+    }
+    .bandarban {
+        grid-area: bandarban;
+        width: 480px;
+        height: 300px;
+    }
+    .our-speciality-card {
+        flex-direction: column;
+        margin-left: -50px;
+        gap: 20px;
+    }
+    .hotels {
+        width: 95%;
+    }
+    .service {
+        width: 95%;
+    }
+    .best-price {
+        width: 106%;
+        margin-left: -50px;
+    }
+    .natural-beauty {
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .natural-beauty-text {
+        margin: 50px;
+        width: 100%;
+    }
+    .newsletter-ext {
+        flex-direction: column;
+        width: 100%;
+        gap: 24px;
+        margin: 0 auto 100px auto;
+    }
+    .newsletter {
+        width: 70%;
+        margin-left: 25px;
+    }
+    .discount-img .discount {
+        left: 230px;
+        bottom: 165px;
+    }
+    .natural-beauty-video iframe {
+        width: 500px;
+    }
+    .footer {
+        margin-left: -220px;
+    }
+}

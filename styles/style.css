@@ -5,7 +5,6 @@
 body {
     font-family: 'Mulish', sans-serif;
     max-width: 1440px;
-    border: 2px solid black;
     margin: 0 auto;
 }
 
@@ -117,7 +116,7 @@ nav {
 .banner-text h1 {
     color: #FFF;
     text-align: center;
-    font-size: 64px;
+    font-size: 4rem;
     font-weight: 800;
 }
 .banner-text p {
@@ -125,7 +124,7 @@ nav {
     text-align: center;
     margin: 24px auto 30px auto;
     max-width: 42rem;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
 }
 .banner-input {
@@ -416,7 +415,6 @@ footer {
     width: 60%;
     margin: auto;
     text-align: center;
-    margin: auto;
     padding: 110px 330px;
 }
 .footer-title {
