@@ -5,4 +5,73 @@
 body {
     font-family: 'Mulish', sans-serif;
     max-width: 1440px;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+
+/* =============================================================
+                        Shared Styles                       
+============================================================  */
+.common-text-styling {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+}
+.common-heading-styling {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.common-subheading-styling {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+/* =============================================================
+                    Header Section Styles                       
+============================================================  */
+
+nav {
+    display: flex;
+    height: 50px;
+    width: 80%;
+    margin: 50px auto;
+}
+.nav-title {
+    width: 50%;
+    display: flex;
+    text-align: center;
+}
+.nav-title p {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+    padding-left: 10px;
+}
+.special {
+    color: #FF5400;
+    font-size: 36px;
+    font-weight: 800;
+}
+.nav-menu {
+    width: 50%;
+}
+.nav-menu ul{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-menu a {
+    text-decoration: none;
+    color: #424247;
+    font-size: 18px;
+    font-weight: 400;
+}
+.nav-menu ul li {
+    list-style: none;
+    transform: translateY(50%);
+}
+.nav-menu .link-diff {
+    color: #FF5400;
+    font-weight: 700;
 }
