@@ -265,3 +265,51 @@ nav {
     width: 673px;
     height: 300px;
 }
+
+/* ================================Why Choose Us Section==================================== */
+
+.our-speciality {
+    width: 80%;
+    margin: 0 auto 100px auto;
+    text-align: center;
+}
+.our-speciality-text {
+    max-width: 640px;
+    margin: auto;
+}
+.our-speciality-text > p {
+    margin: 24px auto 48px auto;
+}
+.our-speciality-card {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    height: auto;
+}
+.hotels {
+    width:50%;
+    text-align: left;
+    padding: 35px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.service {
+    width:50%;
+    text-align: left;
+    padding: 35px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.best-price {
+    width: 50%;
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding: 35px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
