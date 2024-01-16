@@ -38,10 +38,19 @@ body {
     height: 52px;
     border: 0;
 }
+.destination-country {
+    color: #FFF;
+    text-align: center;
+    margin-top: 125px;
+    font-size: 28px;
+    font-weight: 800;
+}
 
 /* =============================================================
                     Header Section Styles                       
 ============================================================  */
+
+/* ==============================Nav Section================================== */
 
 nav {
     display: flex;
@@ -86,6 +95,12 @@ nav {
     color: #FF5400;
     font-weight: 700;
 }
+
+/* =============================================================
+                    Main Section Styles                       
+============================================================  */
+
+/* ================================Banner Section==================================== */
 
 .banner {
     width: 80%;
@@ -156,6 +171,7 @@ nav {
     border: none;
 }
 
+/* ================================Popular Tours Section==================================== */
 
 .popular-tours {
     width: 80%;
@@ -182,4 +198,70 @@ nav {
 .popular-tours-text p {
     margin-top: 25px;
     margin-bottom: 25px;
+}
+
+/* ================================Destination Section==================================== */
+
+.destination {
+    width: 80%;
+    margin: 0 auto 100px auto;
+}
+.destination-text {
+    margin: auto;
+    text-align: center;
+    max-width: 650px;
+}
+.destination p {
+    margin: 24px auto 48px auto;
+}
+.destination-container {
+    display: grid;
+    grid-template-areas: 
+    'maldives maldives maldives maldives maldives maldives indonesia indonesia indonesia indonesia indonesia indonesia'
+    'srilanka srilanka srilanka srilanka north-america north-america north-america north-america north-america kashmir kashmir kashmir'
+    'bangladesh bangladesh bangladesh bangladesh bangladesh bandarban bandarban bandarban bandarban bandarban bandarban bandarban';
+    gap: 24px;    
+}
+.maldives {
+    grid-area: maldives;
+    background: url('../Images/Rectangle\ 5.png');
+    width: 573px;
+    height: 300px;
+}
+
+.indonesia {
+    grid-area: indonesia;
+    background: url('../Images/Rectangle\ 8.png');
+    width: 573px;
+    height: 300px;
+}
+.srilanka {
+    grid-area: srilanka;
+    background: url('../Images/Rectangle\ 6.png');
+    width: 374px;
+    height: 286px;
+}
+.north-america {
+    grid-area: north-america;
+    background: url('../Images/Rectangle\ 7.png');
+    width: 474px;
+    height: 286px;
+}
+.kashmir {
+    grid-area: kashmir;
+    background: url('../Images/Rectangle\ 9.png');
+    width: 274px;
+    height: 286px;
+}
+.bangladesh {
+    grid-area: bangladesh;
+    background: url('../Images/Rectangle\ 11.png');
+    width: 473px;
+    height: 300px;
+}
+.bandarban {
+    grid-area: bandarban;
+    background: url('../Images/Rectangle\ 10.png');
+    width: 673px;
+    height: 300px;
 }
