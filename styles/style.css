@@ -313,3 +313,28 @@ nav {
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
 }
+
+/* ================================Natural Beauty Section==================================== */
+
+.natural-beauty {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 100px auto;
+}
+.natural-beauty-text {
+    width: 45%;
+}
+.natural-beauty-text p {
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.natural-beauty-text ul {
+    padding-left: 25px;
+    margin-bottom: 20px;
+}
+.natural-beauty-video {
+    width: 50%;
+    padding-top: 20px;
+
+}
